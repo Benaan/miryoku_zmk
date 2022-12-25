@@ -2,8 +2,8 @@
 // https://github.com/manna-harbour/miryoku
 
 
-#define U_TAPPING_TERM 400
-#define MIRYOKU_KLUDGE_MOUSEKEYSPR
+#define U_TAPPING_TERM 300
+//#define MIRYOKU_KLUDGE_MOUSEKEYSPR
 
 
 #define XXX &none
