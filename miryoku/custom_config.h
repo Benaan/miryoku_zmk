@@ -11,7 +11,7 @@
         combo_esc {
             timeout-ms = <50>;
             key-positions = <6 7>;
-            bindings = <&tog U_TAP>;
+            bindings = <&tog 2>;
         };
     };
 };
