@@ -19,3 +19,15 @@ XXX  K20  K21  K22  K23  K24  XXX  XXX       XXX  XXX  K25  K26  K27  K28  K29  
 
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_LEFT 42 43
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_RIGHT 46 47
+
+
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <6 7>;
+            bindings = <&tog 2>;
+        };
+    };
+};
