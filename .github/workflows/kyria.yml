@@ -7,3 +7,4 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["kyria_rev2_left","kyria_rev2_right","kyria_dongle"]'
+      branches: "Benaan/zmk/main"
