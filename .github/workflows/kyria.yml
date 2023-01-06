@@ -6,5 +6,5 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
-      shield: '["kyria_rev2_left","kyria_rev2_right","kyria_dongle"]'
+      shield: '["kyria_dongle"]'
       branches: '["Benaan/zmk/main"]'
