@@ -12,6 +12,12 @@ U_NP,              U_NP,              U_MT(LCTRL, ESC),  U_LT(U_NAV, SPC),  U_MT
 &kp Z,             &kp X,             &kp C,             &kp D,             &kp V,             &kp K,             &kp H,             &kp COMMA,         &kp DOT,           &kp SEMICOLON,     \
 U_NP,              U_NP,              U_MT(LCTRL, ESC),  &kp SPC,           U_MT(LSHFT, TAB),  &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
+#define MIRYOKU_LAYER_NUM \
+&kp PLUS,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp SLASH,         &kp PIPE,          &kp EXCLAMATION,   &kp AMPERSAND,     &kp DOLLAR,        &kp GRAVE,         \
+&kp MINUS,         &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp BACKSLASH,     &kp UNDERSCORE     &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp EQUAL,         &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp ASTERISK,      &kp HASH,          &kp QUESTION,      &kp PERCENT,       &kp AT_SIGN,       &kp TILDE,         \
+U_NP,              U_NP,              &kp DOT,           &kp NUM_0,         &kp COMMA,         U_NA,              U_NA,              &kp CARET,         U_NP,              U_NP
+
 / {
     combos {
         compatible = "zmk,combos";
