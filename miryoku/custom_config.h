@@ -4,16 +4,17 @@
 #define U_TAPPING_TERM 300
 
 / {
-    fnArr: fnArr {
-        compatible = "zmk,behavior-macro";
-        label = "ZM_fnArr";
-        #binding-cells = <0>;
-        wait-ms = <30>;
-        tap-ms = <40>;
-        bindings = <&kp EQL &kp GT>;
+    macros {
+        fnArr: fnArr {
+            compatible = "zmk,behavior-macro";
+            label = "ZM_fnArr";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <40>;
+            bindings = <&kp EQL &kp GT>;
+        };
     };
 };
-
 
 #define MIRYOKU_LAYER_BASE \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
