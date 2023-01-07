@@ -1,6 +1,13 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+/ {
+  macros {
+    ZMK_MACRO(fnArr, wait-ms = <30>; tap-ms = <40>; bindings = <&kp Z &kp M &kp K>; )
+  };
+};
+
+
 #include "../miryoku/custom_config.h"
 #include "../miryoku/mapping/50/kyria.h"
 #include "../miryoku/miryoku.dtsi"
