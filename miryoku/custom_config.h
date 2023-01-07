@@ -3,16 +3,17 @@
 
 #define U_TAPPING_TERM 300
 
+
 / {
-    macros {
-        fnArr: fnArr {
-            label = "ZM_fnArr";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp EQL &kp GT>;
-        };
-    };
+  macros {
+    ZMK_MACRO(fnArr,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&kp Z &kp M &kp K>;
+    )
+  };
 };
+
 
 #define MIRYOKU_LAYER_BASE \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
