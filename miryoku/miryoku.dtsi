@@ -16,7 +16,7 @@
             label = "ZM_fnArrow";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp KP_EQUAL &kp GREATER_THAN>
+            bindings = <&kp KP_EQUAL &kp GREATER_THAN>;
         };
     };
 };
