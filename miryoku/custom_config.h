@@ -4,14 +4,6 @@
 
 #define U_TAPPING_TERM 300
 
-
-ZMK_MACRO(arr,
-        bindings = <&kp KP_MINUS &kp GT>;
-)
-ZMK_MACRO(fnArr,
-        bindings = <&kp EQL &kp GT>;
-)
-
 #define MIRYOKU_LAYER_BASE \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 U_MT(LGUI, A),     U_MT(LALT, R),     U_MT(LCTRL, S),    U_MT(LSHFT, T),    &kp G,             &kp M,             U_MT(RSHFT, N),    U_MT(RCTRL, E),    U_MT(RALT, I),     U_MT(LGUI, O),     \
