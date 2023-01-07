@@ -6,11 +6,9 @@
 / {
     macros {
         fnArr: fnArr {
-            compatible = "zmk,behavior-macro";
             label = "ZM_fnArr";
+            compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <40>;
             bindings = <&kp EQL &kp GT>;
         };
     };
