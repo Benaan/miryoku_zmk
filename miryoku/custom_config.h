@@ -33,7 +33,7 @@ U_NP,              U_NP,              &kp DOT,           &kp NUM_0,         &kp 
 &kp LPAR,          &kp RPAR,          &kp LEFT_BRACE,    &kp RIGHT_BRACE,   &kp LEFT_BRACKET,  U_BOOT,            &kp C_PLAY_PAUSE,  &kp C_NEXT,        U_NA,              U_NA,              \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp RIGHT_BRACKET, &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
-U_NP,              U_NP,              U_NA,              U_NA,              &fnArr,            &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              U_NA,              U_NA,              &ZM_fnArr,         &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 / {
     combos {
@@ -45,4 +45,3 @@ U_NP,              U_NP,              U_NA,              U_NA,              &fnA
         };
     };
 };
-
