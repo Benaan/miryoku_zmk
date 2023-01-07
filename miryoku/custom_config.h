@@ -3,12 +3,16 @@
 
 #define U_TAPPING_TERM 300
 
-ZMK_MACRO(fnArr,
-    wait-ms = <30>;
-    tap-ms = <40>;
-    bindings = <&kp EQL &kp GT>;
-)
-
+/ {
+    fnArr: fnArr {
+        compatible = "zmk,behavior-macro";
+        label = "ZM_fnArr";
+        #binding-cells = <0>;
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&kp EQL &kp GT>;
+    };
+};
 
 
 #define MIRYOKU_LAYER_BASE \
@@ -45,3 +49,4 @@ U_NP,              U_NP,              U_NA,              U_NA,              &ZM_
         };
     };
 };
+
