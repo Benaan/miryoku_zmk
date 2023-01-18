@@ -1,7 +1,7 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-#define U_TAPPING_TERM 300
+#define U_TAPPING_TERM 200
 
 #define MIRYOKU_LAYER_TAP \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
@@ -16,7 +16,11 @@ U_NP,              U_NP,              &kp SPC,           U_MT(LSHFT, TAB),  U_MT
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
-
+#define MIRYOKU_LAYER_SYM \
+&kp DLLR,          &kp AMPS,          &kp PIPE,          &kp CRRT,          &kp PRCT,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp COLON,         &kp LBRC,          &kp RBRC,          &kp LPAR,          &kp PLUS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp ASTRK,         U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
+U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 / {
     combos {
         compatible = "zmk,combos";
