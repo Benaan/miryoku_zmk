@@ -15,21 +15,19 @@
       compatible = "zmk,behavior-hold-tap";
       label = "u_lmt";
       #binding-cells = <2>;
-      tapping-term-ms = <200>;
-      quick-tap-ms = <100>;
-      flavor = "tap-unless-interrupted";
+            tapping-term-ms = <150>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
-      hold-trigger-key-positions = <8 9 10 11 12 13 14 15>;
     };
     u_rmt: u_rmt {
       compatible = "zmk,behavior-hold-tap";
       label = "u_rmt";
       #binding-cells = <2>;
-      tapping-term-ms = <200>;
-      quick-tap-ms = <100>;
-      flavor = "tap-unless-interrupted";
+            tapping-term-ms = <150>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
-      hold-trigger-key-positions = <0 1 2 3 4 5 6 7>;
     };
     u_ht: u_ht {
       compatible = "zmk,behavior-hold-tap";
