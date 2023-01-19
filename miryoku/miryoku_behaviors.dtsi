@@ -11,6 +11,24 @@
       flavor = "hold-preferred";
       bindings = <&kp>, <&kp>;
     };
+    u_lmt: u_lmt {
+      compatible = "zmk,behavior-hold-tap";
+      label = "u_lmt";
+      #binding-cells = <2>;
+      tapping_term_ms = <U_TAPPING_TERM>;
+      flavor = "hold-preferred";
+      bindings = <&kp>, <&kp>;
+      hold-trigger-key-positions = <5 6 7 8 9>;
+    };
+    u_rmt: u_rmt {
+      compatible = "zmk,behavior-hold-tap";
+      label = "u_rmt";
+      #binding-cells = <2>;
+      tapping_term_ms = <U_TAPPING_TERM>;
+      flavor = "hold-preferred";
+      bindings = <&kp>, <&kp>;
+      hold-trigger-key-positions = <0 1 2 3 4>;
+    };
     u_ht: u_ht {
       compatible = "zmk,behavior-hold-tap";
       label = "u_ht";
