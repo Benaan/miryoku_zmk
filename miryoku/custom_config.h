@@ -7,7 +7,7 @@
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 &kp A,             &kp R,             &kp S,             &kp T,             &kp G,             &kp M,             &kp N,             &kp E,             &kp I,             &kp O,             \
 &kp Z,             &kp X,             &kp C,             &kp D,             &kp V,             &kp K,             &kp H,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &kp SPC,           U_MT(LSHFT, TAB),  U_MT(LCTRL, ESC),  &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              &kp SPC,           U_HT(LSHFT, TAB),  U_HT(LCTRL, ESC),  &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 
 #define MIRYOKU_LAYER_NAV \
