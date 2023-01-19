@@ -15,18 +15,18 @@
       compatible = "zmk,behavior-hold-tap";
       label = "u_lmt";
       #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            quick-tap-ms = <50>;
-            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <0>;
+            flavor = "balanced";
       bindings = <&kp>, <&kp>;
     };
     u_rmt: u_rmt {
       compatible = "zmk,behavior-hold-tap";
       label = "u_rmt";
       #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            quick-tap-ms = <50>;
-            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <0>;
+            flavor = "balanced";
       bindings = <&kp>, <&kp>;
     };
     u_ht: u_ht {
