@@ -16,7 +16,7 @@
       label = "u_lmt";
       #binding-cells = <2>;
             tapping-term-ms = <150>;
-            quick-tap-ms = <0>;
+            quick-tap-ms = <50>;
             flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
     };
@@ -25,7 +25,7 @@
       label = "u_rmt";
       #binding-cells = <2>;
             tapping-term-ms = <150>;
-            quick-tap-ms = <0>;
+            quick-tap-ms = <50>;
             flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
     };
