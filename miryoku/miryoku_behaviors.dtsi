@@ -19,7 +19,6 @@
       quick-tap-ms = <200>;
       flavor = "tap-unless-interrupted";
       bindings = <&kp>, <&kp>;
-      hold-trigger-key-positions = <6 7 8 9 10 11 12>;
     };
     u_rmt: u_rmt {
       compatible = "zmk,behavior-hold-tap";
@@ -29,7 +28,6 @@
       quick-tap-ms = <200>;
       flavor = "tap-unless-interrupted";
       bindings = <&kp>, <&kp>;
-      hold-trigger-key-positions = <0 1 2 3 4 5>;
     };
     u_ht: u_ht {
       compatible = "zmk,behavior-hold-tap";
