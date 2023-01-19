@@ -15,8 +15,8 @@
       compatible = "zmk,behavior-hold-tap";
       label = "u_lmt";
       #binding-cells = <2>;
-      tapping-term-ms = <100>;
-      quick-tap-ms = <200>;
+      tapping-term-ms = <200>;
+      quick-tap-ms = <100>;
       flavor = "tap-unless-interrupted";
       bindings = <&kp>, <&kp>;
     };
@@ -24,8 +24,8 @@
       compatible = "zmk,behavior-hold-tap";
       label = "u_rmt";
       #binding-cells = <2>;
-      tapping-term-ms = <100>;
-      quick-tap-ms = <200>;
+      tapping-term-ms = <200>;
+      quick-tap-ms = <100>;
       flavor = "tap-unless-interrupted";
       bindings = <&kp>, <&kp>;
     };
